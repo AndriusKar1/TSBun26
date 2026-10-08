@@ -1,0 +1,53 @@
+html {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+
+table {
+   table-layout: fixed;
+  width: 50%;
+  margin: 10px auto;
+  border-collapse: collapse;
+  border-top: 1px solid #8a76fa;
+  border-bottom: 1px solid #8a76fa;
+}
+
+th,
+td {
+  padding: 0.6em;
+}
+
+tr :nth-child(1){
+  text-align: left;
+  width: 50%;
+}
+
+tr :nth-child(2),
+tr :nth-child(3) {
+  text-align: right;
+  width: 25%;
+}
+
+tr :nth-child(1),
+tr :nth-child(2) {
+  text-align: left;
+}
+
+tfoot tr :nth-child(3) {
+  text-align: right;
+}
+
+th,
+td {
+  vertical-align: top;
+  padding: 0.3em;
+}
+
+tfoot {
+  border-top: 1px solid #8a76fa;
+}
+
+
+tbody tr:nth-child(odd) {
+  background-color: #d8d2f3;
+}
